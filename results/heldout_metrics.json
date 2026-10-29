@@ -1,0 +1,25 @@
+{
+  "source": "zefang-liu/phishing-email-dataset@34085a032c123ca237f314a01a67909cdea35e34",
+  "dataset_sha256": "176d653fcc961415d0b93e9460b5c2f4bee181c4c79ab80cb805ce0540765506",
+  "seed": 42,
+  "split": "stratified random 80/20 after exact normalized-text deduplication",
+  "training_samples": 13980,
+  "test_samples": 3495,
+  "conflicting_duplicates_removed": 0,
+  "positive_label": "phishing-like category as supplied by dataset",
+  "accuracy": 0.9845,
+  "average_precision": 0.998,
+  "positive_precision": 0.9735,
+  "positive_recall": 0.9854,
+  "positive_f1": 0.9794,
+  "confusion_matrix": [
+    [
+      2155,
+      35
+    ],
+    [
+      19,
+      1286
+    ]
+  ]
+}
